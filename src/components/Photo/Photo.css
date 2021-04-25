@@ -1,0 +1,12 @@
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.photo {
+  border-style: solid;
+  border-width: 2px;
+  border-color: aquamarine;
+}

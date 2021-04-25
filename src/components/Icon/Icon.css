@@ -1,0 +1,11 @@
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+}
+
+.icon__label {
+    margin-top: 5px;
+}

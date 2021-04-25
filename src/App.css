@@ -1,0 +1,120 @@
+li {
+  list-style-type: none;
+}
+
+.App {
+  text-align: center;
+  background-image: url('./assets/background1.png');
+  background-position: center;
+  background-repeat: none;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.flexible-modal {
+  position: absolute;
+  z-index: 1;
+  border: 1px solid #ccc;
+  background: white;
+}
+.flexible-modal-mask {
+  position: fixed;
+  height: 100%;
+  background: rgba(55, 55, 55, 0.6);
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+.flexible-modal-resizer {
+  position:absolute;
+  right:0;
+  bottom:0;
+  cursor:se-resize;
+  margin:5px;
+  border-bottom: solid 2px #333;
+  border-right: solid 2px #333;
+}
+.flexible-modal-drag-area{
+  background: rgba(22, 22, 333, 0.2);
+  height: 50px;
+  position:absolute;
+  right:0;
+  top:0;
+  cursor:move;
+}
+
+.taskbar {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  height: 32px;
+  background-color: cornflowerblue;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 9999999999;
+}
+
+.windows-taskbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.window-taskbar {
+  background-color: blueviolet;
+  box-shadow: inset 0 0 0px 1px violet;
+  height: 32px;
+}
+
+.startbutton {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: green;
+  margin-left: 2px;
+}
+
+.taskbarclock {
+  margin-right: 5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

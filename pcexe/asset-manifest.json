@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7d2cb6c.chunk.css",
+    "main.js": "/static/js/main.aa9223ef.chunk.js",
+    "main.js.map": "/static/js/main.aa9223ef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ed322f47.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ed322f47.js.map",
+    "static/js/2.6b193846.chunk.js": "/static/js/2.6b193846.chunk.js",
+    "static/js/2.6b193846.chunk.js.map": "/static/js/2.6b193846.chunk.js.map",
+    "static/js/3.1283c9f8.chunk.js": "/static/js/3.1283c9f8.chunk.js",
+    "static/js/3.1283c9f8.chunk.js.map": "/static/js/3.1283c9f8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e7d2cb6c.chunk.css.map": "/static/css/main.e7d2cb6c.chunk.css.map",
+    "static/js/2.6b193846.chunk.js.LICENSE.txt": "/static/js/2.6b193846.chunk.js.LICENSE.txt",
+    "static/media/background2.4a91b0b1.png": "/static/media/background2.4a91b0b1.png",
+    "static/media/background3.65b57ecb.png": "/static/media/background3.65b57ecb.png",
+    "static/media/dead.e4f42141.jpg": "/static/media/dead.e4f42141.jpg",
+    "static/media/decup.79f23e58.png": "/static/media/decup.79f23e58.png",
+    "static/media/kto-prochital-tot-sdohnet.fb796254.jpg": "/static/media/kto-prochital-tot-sdohnet.fb796254.jpg",
+    "static/media/photo6Dis.72b539bb.png": "/static/media/photo6Dis.72b539bb.png",
+    "static/media/photo7Dis.93121307.png": "/static/media/photo7Dis.93121307.png",
+    "static/media/video.57815ccd.gif": "/static/media/video.57815ccd.gif",
+    "static/media/videoDis1.4e96fd7f.gif": "/static/media/videoDis1.4e96fd7f.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed322f47.js",
+    "static/js/2.6b193846.chunk.js",
+    "static/css/main.e7d2cb6c.chunk.css",
+    "static/js/main.aa9223ef.chunk.js"
+  ]
+}

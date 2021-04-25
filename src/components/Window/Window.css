@@ -1,0 +1,50 @@
+.window {
+    position: absolute;
+    width: 640px;
+    height: 480px;
+    box-shadow: none;
+    background-image: url('./window_background.png');
+    background-size: cover;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.window__header {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 17px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    user-select: none;
+    cursor:default;
+    background-image: url('./window_header.png');
+    background-repeat: no-repeat;
+    background-size: 100% 17px;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    background-size: cover;
+}
+
+.window__content {
+    height: calc(100% - 18px);
+}
+
+.window__header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    border: none;
+}
+
+.header-button__image {
+    width: 15px;
+    height: 15px;
+}
